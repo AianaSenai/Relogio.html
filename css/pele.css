@@ -1,0 +1,67 @@
+@font-face {
+    font-family: relogio;
+    src: url('/fonte/alarm.ttf');
+}
+
+body{
+    background: linear-gradient(#f38b29,#fdfdfd);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.saudacao{
+    width: 450px;
+    border: 1px none;
+    border-radius:15px;
+    box-shadow: 2px 2px 15px #351c05a4;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+}
+.saudacao p{
+    font-size: 30px;
+}
+.saudacao div span{
+    font-size: 30px;
+}
+.dia{
+    background: linear-gradient(orange,red);
+}
+.noite{
+    background: linear-gradient(darkblue,black);
+}
+.central{
+    width: 450px;
+    border: 1px solid none;
+    border-radius:15px;
+    box-shadow: 2px 2px 15px #2718015e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    padding: 20px;
+}
+.central div{
+    background: rgb(226, 101, 18);
+    color: rgb(250, 215, 169);
+    font-size: 85px;
+    font-family: relogio;
+    height: 150px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 9px;
+}
+.central span{
+    font-size: 65px;
+    color: rgb(226, 101, 18);
+}
